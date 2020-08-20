@@ -1,0 +1,21 @@
+.message {
+  padding: 1rem;
+  width: fit-content;
+  margin: 1rem;
+  color: Black;
+}
+
+.message__user {
+  /* this is the code which is making the user messages box to move at the right side  */
+  margin-left: auto;
+  color: black;
+  text-align: left !important;
+}
+
+.message__userCard {
+  background-color: #0784b9 !important;
+  color: white !important;
+}
+.message__guestCard {
+  background-color: #cbdbe2 !important;
+}

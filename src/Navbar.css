@@ -1,0 +1,27 @@
+.navbar__styles {
+  position: relative;
+}
+
+.logo-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.logo-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.logo-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bg-color {
+  background-color: rgb(4, 139, 139);
+}

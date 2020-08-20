@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+img {
+  width: 20%;
+  height: auto;
+}
+.app__form {
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  display: flex;
+  width: 100%;
+
+  margin: 0 2rem 0 0;
+}
+#app__formControl {
+  /* because the material ui takes the higher presidence show making our styles to take the higher one we have to used important. */
+  display: flex;
+  flex-direction: row;
+  align-self: space-between;
+}
+#app__formInput {
+  font-size: 3rem;
+}
+#app__fomrIconButton {
+  flex-shrink: 0;
+}
+.img-rounded {
+  border-radius: 50%;
+  width: 50%;
+}
+.navbar__styles {
+  background-color: rgb(4, 139, 139);
+}
